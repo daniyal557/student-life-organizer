@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+<FileVersion major="1" minor="6" />
+<Project>
+<Option title="Student Life Organizer" /><Option compiler="gcc" />
+<Build><Target title="Debug">
+<Option output="bin/organizer" prefix_auto="1" extension_auto="1" />
+<Option object_output="obj/Debug/" /><Option working_dir="." />
+<Option type="1" /><Option compiler="gcc" />
+<Compiler><Add option="-g" /></Compiler>
+</Target></Build>
+<Compiler><Add option="-std=c99" /><Add option="-Wall" /></Compiler>
+<Linker><Add library="m" /></Linker>
+<Unit filename="main.c" />
+</Project>
+</CodeBlocks_project_file>
